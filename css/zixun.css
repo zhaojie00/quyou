@@ -1,0 +1,442 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	box-sizing: border-box;
+}
+/*头部*/
+#aaa {
+	
+	width: 100%;
+	height: 70px;
+	background-color: #1f1f1f;
+	
+
+}
+#aaa .bbb {
+	
+	width: 1280px;
+	height: 70px;
+	margin: 0 auto;	
+	/*background-color: #666;*/
+
+}
+#aaa .logo {
+	background: url(../img/logo.jpg) no-repeat center;
+	width: 240px;
+	height: 70px;
+	float:left;
+}
+#aaa .ccc {
+
+	width: 740px;
+	height: 70px;
+	background-color: #171717;
+	float:right;
+
+}
+#aaa .ccc ul li{
+ margin:0px;
+ padding:0px;
+}
+#aaa .ccc li{
+	width: 135px;
+	height: 70px;
+ line-height: 70px;
+ text-align: center;
+ list-style:none;
+ list-style-position:outside;
+ float:left;
+ color:#fcf5f5;
+}
+#aaa .ccc li:hover {
+background-color: #c17dd8;
+color: white;}
+#aaa .ccc a {
+	text-decoration:none;
+	color: #fcf5f5;}
+#aaa .ggg{
+	background-color: #453232;
+}
+
+/*底部*/
+#footer {
+	width: 100%;
+	height: 475px;
+	background-color: #222222;
+}
+#footer .top {
+	width: 1280px;
+	height: 396px;
+	margin: 0 auto;
+	text-align: center;	
+	background-color: #222222;
+
+}
+
+#footer .hhh {
+	width: 410px;
+	height: 396px;
+ 	text-align: left;
+	vertical-align: top;
+	color: #ccc;
+	display: inline-block;
+}
+#footer .hhh h2{
+	font-size: 24px;
+	padding: 40px 0 0 2px;
+	color:#fcf5f5;
+}
+#footer .hhh ul{
+	font-size: 18px;
+	line-height: 2;
+	text-indent: 1px;
+ 	color:#777;
+ 	list-style:none;
+}
+#footer .hhh hr{
+	margin-top: 15px;
+	border: 1px dashed #333;
+	width: 90%;
+}
+#footer .bottom {
+	height: 79px;
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+	color: #666;
+	line-height: 79px;
+}
+/*底部结束*/
+/*中焦点*/
+
+#headline {
+	background: url(../img/300a.jpg) no-repeat center;
+	width: 1920px;
+	height: 300px;
+	min-width: 1280px;
+	position:relative;
+	margin: 0 auto; 
+}
+#headline .aaa{
+	position: absolute;
+	top: 40%;left: 20%;
+	color: #eee;
+}
+#headline .aaa h2{font-size: 32px;}
+#headline .aaa h3{font-size: 20px;}
+#jichu{
+	width: 1280px;
+	height: 2350px;
+	margin: 30px auto;
+}
+
+#jichu .zuo{
+	width: 910px;
+	height: 2350px;
+	float: left;
+	border: 1px solid #eee;
+	/*opacity: 0.6;设置透明度*/
+}
+/*中左开始*/
+
+/*标题栏*/
+#jichu .zuo .com1{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	color: #666;
+	background-color: #eee;
+	margin:0 0 10px 0;
+}
+
+
+#jichu .zuo .com2{
+	float: left;
+	width: 300px;
+	height: 45px;
+	text-align: center;
+}
+#jichu .zuo .com2 .cn1{
+	float: left;
+	width: 150px;
+	height: 45px;
+	line-height: 42px;
+	background-color: #fff;
+	border-top: 2px solid #448b00;
+	margin-top: -1px;
+}
+#jichu .zuo .com2 .cn2{
+	float: right;
+	width: 150px;
+	height: 45px;
+}
+
+
+#jichu .zuo .com3{
+	float:right;
+	width: 210px;
+	height: 45px;
+}
+
+#jichu .zuo .com3 .tui1{
+	float:left;
+	width: 70px;
+	height: 45px;
+	text-align: center;
+}
+#jichu .zuo .com3 .tui12{
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #448a03;
+	margin-top: 10px;
+}
+#jichu .zuo .com3 .tui12 a{
+	color: #fff;
+}
+
+#jichu .zuo .com3 .tui2{
+	float:left;
+	width: 60px;
+	height: 45px;
+}
+
+#jichu .zuo .com3 .tui3{
+	float:left;
+	width: 60px;
+	height: 45px;
+}
+
+/*图片信息*/
+
+
+#jichu .zuo a{
+	text-decoration:none;
+	color: #666;	
+}
+
+#jichu .zuo .tour{
+	width: 906px;
+	height: 230px;
+	border:1px solid #eee;
+	position: relative;
+		margin: 10px 0 10px 0;
+
+}
+#jichu .zuo .tour img{
+	float: left;
+
+
+}
+#jichu .zuo .tour figcaption{
+	float: right;
+	width: 505px;
+}
+#jichu .zuo .tour figcaption hgroup{
+	width: 290px;
+
+}
+#jichu .zuo .tour .buy{
+	position: absolute;
+	top: 80px;
+	right: 50px;
+}
+#jichu .zuo .tour .type{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: center;
+	background-color: #59b200;
+	width:95px
+	height:25px;
+	line-height: 25px;
+	padding: 2px;
+	font-size: 14px;
+}
+#jichu .zuo .tour figcaption h2{
+	font-weight: normal;	
+	font-size: 20px;
+	color: #666;
+	margin:10px 0 15px 0;
+
+}
+#jichu .zuo .tour figcaption h3{
+	font-weight: normal;	
+	font-size: 16px;
+	color: #666;
+	margin: 0 0 10px 0;
+}
+#jichu .zuo .tour figcaption ol li {
+	list-style: none;
+	color: #666;
+}
+#jichu .zuo .tour figcaption mark{
+	border:1px solid #59b200;
+	background-color: #fff;
+	color: #59b200;
+	border-radius: 4px;
+	width: 45px;
+	height:20px;
+	line-height: 20px;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 5px 5px 0;
+}
+#jichu .zuo .tour figcaption footer{
+	position: absolute;
+	bottom: 0;
+	color: #666; 
+}
+#jichu .zuo .tour figcaption footer time{
+	color: #59b200;
+}
+#jichu .zuo .tour figcaption .price{
+	color: #ff6600;
+	margin-top: -20px;
+
+}
+#jichu .zuo .tour figcaption s{
+	color: #666;
+}
+#jichu .zuo .tour figcaption strong{
+	font-size: 30px;
+	margin: 0 3px 0 0;
+}
+#jichu .zuo .tour figcaption .reserve{
+	width: 155px
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #ff6600;
+	border-radius: 5px;
+	margin-top: 10px;
+
+}
+#jichu .zuo .tour figcaption .reserve a{
+	color: #fff;	
+}
+#jichu .zuo .tour figcaption .disc{
+	position: absolute;
+	top:0;
+	right: 0;
+	color: #ff6600;
+	width:0px;
+	height:0px;
+	border-width:50px 0 0 50px;
+	border-style:solid;
+	border-color:#f7dda5 transparent transparent transparent;
+}
+#jichu .zuo .tour figcaption .disc span{
+	display:block;
+	font-size: 14px;
+	transform: rotate(40deg);
+	width: 50px;
+	height: 5px;
+	margin: -34px 0 0 -33px;
+}
+
+
+#jichu .zuo .laster{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	color: #333;
+	background-color: #fafafa;
+	border:1px solid #999;
+	margin: 30px auto;	
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+
+
+/*中左结束 右开始*/
+#jichu .you{
+
+	width: 350px;
+	height: 2350px;
+	float: right;
+	padding: 0 0 0 10px;
+}
+#jichu .you .aaa{
+	width: 360px;
+
+}
+#jichu .you h2{
+	font-size: 20px;
+	
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+	text-indent: 5px;
+	letter-spacing: 1px;/*字体左右间距*/
+	border-bottom: 1px solid #eee;
+	width: 310px;
+
+}
+#jichu .bbb, .ccc{
+	padding: 5px;
+}
+#jichu .ccc a {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #eee;
+	text-decoration:none;
+	color: #888;
+	text-align: left;
+	text-indent: 10px;
+	margin: 2px 0;
+	font-size: 16px;
+}
+#jichu .ccc a:hover{
+	background-color: #093;
+	color: #fff;
+}
+#jichu .you figure{
+	display: inline-block;
+	padding:1px 1px;
+	text-align: center;
+	margin-left: 3px;
+
+}
+#jichu .you figcaption{
+	color: #666;
+	padding: 5px 0 0 0;}
+#jichu .ddd a{
+	text-decoration:none;/*取消连接下划线*/
+	width: 145px;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	margin: 3px 5px;
+	color: #888;
+	text-indent: 40px;
+	display: inline-block;
+}
+
+#jichu .ddd .eee{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+#jichu .ddd .fff{
+	background: #eee url(../img/trea2.png) no-repeat 10px center;
+}
+#jichu .ddd .ggg{
+	background: #eee url(../img/trea3.png) no-repeat 10px center;
+}
+#jichu .ddd .hhh{
+	background: #eee url(../img/trea4.png) no-repeat 10px center;
+} 
+#jichu .ddd h2{
+	margin: 0 0 1px 0 ;
+	padding: 2px;
+}
+/*中右结束*/

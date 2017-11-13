@@ -1,0 +1,366 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	box-sizing: border-box;
+}
+/*头部*/
+#aaa {
+	
+	width: 100%;
+	height: 70px;
+	background-color: #1f1f1f;
+	
+
+}
+#aaa .bbb {
+	
+	width: 1280px;
+	height: 70px;
+	margin: 0 auto;	
+	/*background-color: #666;*/
+
+}
+#aaa .logo {
+	background: url(../img/logo.jpg) no-repeat center;
+	width: 240px;
+	height: 70px;
+	float:left;
+}
+#aaa .ccc { 
+
+	width: 740px;
+	height: 70px;
+	background-color: #171717;
+	float:right;
+
+}
+#aaa .ccc ul li{
+ margin:0px;
+ padding:0px;
+}
+#aaa .ccc li{
+	width: 135px;
+	height: 70px;
+ line-height: 70px;
+ text-align: center;
+ list-style:none;
+ list-style-position:outside;
+ float:left;
+ color:#fcf5f5;
+}
+#aaa .ccc li:hover {
+background-color: #c17dd8;
+color: white;}
+#aaa .ccc a {
+	text-decoration:none;
+	color: #fcf5f5;}
+#aaa .ggg{
+	background-color: #453232;
+}
+
+/*底部*/
+#footer {
+	width: 100%;
+	height: 475px;
+	background-color: #222222;
+}
+#footer .top {
+	width: 1280px;
+	height: 396px;
+	margin: 0 auto;
+	text-align: center;	
+	background-color: #222222;
+
+}
+
+#footer .hhh {
+	width: 410px;
+	height: 396px;
+ 	text-align: left;
+	vertical-align: top;
+	color: #ccc;
+	display: inline-block;
+}
+#footer .hhh h2{
+	font-size: 24px;
+	padding: 40px 0 0 2px;
+	color:#fcf5f5;
+}
+#footer .hhh ul{
+	font-size: 18px;
+	line-height: 2;
+	text-indent: 1px;
+ 	color:#777;
+ 	list-style:none;
+}
+#footer .hhh hr{
+	margin-top: 15px;
+	border: 1px dashed #333;
+	width: 90%;
+}
+#footer .bottom {
+	height: 79px;
+	width: 100%;
+	text-align: center;
+	background-color: #000000;
+	color: #666;
+	line-height: 79px;
+}
+/*底部结束*/
+/*中焦点*/
+
+#headline {
+	background: url(../img/300a.jpg) no-repeat center;
+	width: 1920px;
+	height: 300px;
+	min-width: 1280px;
+	position:relative;
+	margin: 0 auto; 
+}
+#headline .aaa{
+	position: absolute;
+	top: 40%;left: 20%;
+	color: #eee;
+}
+#headline .aaa h2{font-size: 32px;}
+#headline .aaa h3{font-size: 20px;}
+#jichu{
+	width: 1280px;
+	height: 1150px;
+	margin: 30px auto;
+}
+
+#jichu .zuo{
+	width: 900px;
+	height: 1150px;
+	float: left;
+	/*opacity: 0.6;设置透明度*/
+}
+/*中左开始*/
+#jichu .zuo h2{
+	width: 890px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #ddd;
+	font-size: 22px;
+	color: #666;
+	font-weight: normal;
+	text-indent: 5px;
+	padding-bottom: 5px;
+}
+
+#jichu .zuo .bbb p{
+	color: #666;
+	margin: 15px 2px;
+	font-size: 18px;
+}
+#jichu .zuo .bbb mark{
+	color: #fff;
+	background-color: #468a00;
+	border-radius: 5px;
+	padding: 6px 8px;
+	margin: 0 10px;	
+}
+#jichu .zuo p{
+	font-size: 16px;
+	color: #666;
+	margin: 2px 0px;
+	line-height:3;
+}
+#jichu .zuo input{
+	width: 250px;
+	height: 33px;
+	line-height: 33px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	text-indent: 8px;
+}
+#jichu .zuo .ccc{
+	display: inline-block;
+	width: 45%;
+
+	 }
+#jichu .zuo .ddd{
+	display: inline-block;
+	width: 45%;
+}
+#jichu .zuo .eee{
+	display: inline-block;
+	width: 8%;
+	}
+	#jichu .zuo lable{
+		font-size: 18px;
+	}
+#jichu .zuo .eee .submit{
+	background-color: #f60;
+	color: #fff;
+	width: 90px;
+	height: 90px;
+	border-radius: 5px;
+	font-size: 25px;
+	border: none;
+	line-height: 90px;
+	position: relative;
+	top: -25px;
+	cursor: pointer;
+}
+#jichu .zuo .fff ul{
+	margin: 0 0 5px 0;
+
+}
+#jichu .zuo .fff ul li{
+	list-style:none;
+	display: inline-block;
+	color: #666;
+	font-size: 18px;
+	margin:12px;
+	padding: 3px 5px;
+}
+#jichu .zuo .fff ul li:nth-child(2){
+	background-color: #448b00;
+	border-radius: 3px;
+	color:#fff;
+}
+
+#jichu .zuo  ul li:nth-child(1){
+	margin-left: 0;
+}
+#jichu .zuo  table{
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+	color: #666;
+	border-collapse: collapse;
+	font-size: 18px;
+}
+#jichu table tr{
+	border:1px solid #ddd;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;
+}
+
+#jichu table tr:nth-child(2n){
+	background-color: #fafafa;
+}
+
+#jichu table tr:hover{	
+	background-color: #6ee;
+}
+
+#jichu table .ding{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+
+
+}
+#jichu .zuo .fff table .qian{
+	color: #ff6600;
+}
+#jichu .zuo .fff table .ding{
+	background-color: #ff6600;
+	color: #fff;
+	border-radius: 6px;	
+	cursor: pointer;
+}
+#jichu .zuo .fff table .last{
+	cursor: pointer;
+}
+
+#jichu .zuo .fff table a{
+	text-decoration:none;
+	display: inline-block;
+}
+
+
+
+
+/*中左结束 右开始*/
+#jichu .you{
+
+	width: 350px;
+	height: 1150px;
+	float: right;
+	padding: 0 0 0 10px;
+}
+#jichu .you .aaa{
+	width: 360px;
+
+}
+#jichu .you h2{
+	font-size: 20px;
+	
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+	text-indent: 5px;
+	letter-spacing: 1px;/*字体左右间距*/
+	border-bottom: 1px solid #eee;
+	width: 310px;
+
+}
+#jichu .bbb, .ccc{
+	padding: 5px;
+}
+#jichu .ccc a {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #eee;
+	text-decoration:none;
+	color: #888;
+	text-align: left;
+	text-indent: 10px;
+	margin: 2px 0;
+	font-size: 16px;
+}
+#jichu .ccc a:hover{
+	background-color: #093;
+	color: #fff;
+}
+#jichu .you figure{
+	display: inline-block;
+	padding:1px 1px;
+	text-align: center;
+	margin-left: 3px;
+
+}
+#jichu .you figcaption{
+	color: #666;
+	padding: 5px 0 0 0;}
+#jichu .ddd a{
+	text-decoration:none;/*取消连接下划线*/
+	width: 145px;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	margin: 3px 5px;
+	color: #888;
+	text-indent: 40px;
+	display: inline-block;
+}
+
+#jichu .ddd .eee{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+#jichu .ddd .fff{
+	background: #eee url(../img/trea2.png) no-repeat 10px center;
+}
+#jichu .ddd .ggg{
+	background: #eee url(../img/trea3.png) no-repeat 10px center;
+}
+#jichu .ddd .hhh{
+	background: #eee url(../img/trea4.png) no-repeat 10px center;
+} 
+#jichu .ddd h2{
+	margin: 0 0 1px 0 ;
+	padding: 2px;
+}
+/*中右结束*/
